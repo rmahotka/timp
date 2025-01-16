@@ -2,8 +2,8 @@
 const model = defineModel()
 
 const setAmount = (val) => {
-  model.value = val
-}
+  model.value = model.value === val ? null : val;
+};
 
 const amounts = [2, 5, 100];
 
