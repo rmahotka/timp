@@ -49,6 +49,7 @@ const model = defineModel()
       font-size: 17px;
       line-height: 24px;
       font-weight: 400;
+      resize: none;
 
       &:focus-visible{
         outline: 0;
