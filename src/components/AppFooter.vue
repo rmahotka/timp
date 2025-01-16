@@ -27,6 +27,8 @@ const modelAmount = defineModel()
 
 <style scoped lang="scss">
 .footer {
+  max-width: 1000px;
+  margin: 0 auto;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -65,6 +67,22 @@ const modelAmount = defineModel()
       align-items: center;
       gap: 8px;
       margin-bottom: 12px;
+
+       @media (min-width: 1200px) and (max-width: 1400px) {
+         flex-direction: row;
+       }
+
+       @media (min-width: 1400px) and (max-width: 1919px) {
+         flex-direction: row;
+       }
+
+      @media (min-width: 992px) and (max-width: 1200px) {
+        flex-direction: row;
+      }
+
+      @media (min-width: 768px) and (max-width: 992px) {
+        flex-direction: row;
+      }
     }
 
     &-info{

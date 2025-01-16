@@ -29,12 +29,22 @@ onMounted(() => {
       <span>Part of the profit goes to sWen</span>
       <abstraction-icon class="svg"/>
       <span>By leaving a tip, you take care of nature</span>
+      <abstraction-icon class="svg"/>
+      <span>Part of the profit goes to sWen</span>
+      <abstraction-icon class="svg"/>
+      <span>By leaving a tip, you take care of nature</span>
+      <abstraction-icon class="svg"/>
+      <span>Part of the profit goes to sWen</span>
+      <abstraction-icon class="svg"/>
+      <span>By leaving a tip, you take care of nature</span>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
 .block{
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 10px 0;
   overflow: hidden;
   background: rgb(245,207,200);

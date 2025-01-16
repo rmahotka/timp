@@ -55,8 +55,8 @@ const visibleSlides = computed(() => {
 <style scoped lang="scss">
 .personnel{
   position: relative;
-  margin-top: 16px;
-  margin-bottom: 20px;
+  max-width: 1000px;
+  margin: 16px auto 20px;
   display: flex;
   align-items: center;
   overflow: hidden;

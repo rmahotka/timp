@@ -29,7 +29,8 @@ const model = defineModel()
   border-radius: 12px;
 
   &-text{
-    max-width: 250px;
+    flex: 0 1 auto;
+
     .title{
       font-size: 14px;
       line-height: 20px;
@@ -48,6 +49,7 @@ const model = defineModel()
 
   .toggle-switch {
     position: relative;
+    min-width: 54px;
     width: 54px;
     height: 30px;
   }

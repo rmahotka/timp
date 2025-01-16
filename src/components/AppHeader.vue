@@ -20,6 +20,8 @@ import AngleDown from "@/components/icons/AngleDown.vue";
 
 <style scoped lang="scss">
 .header{
+  max-width: 1000px;
+  margin: 0 auto;
   background: var(--color-white);
   padding: 12px 0;
 
