@@ -29,6 +29,8 @@ const modelAmount = defineModel()
 .footer {
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
   background: var(--color-white);
   border-radius: 20px 20px 0 0;
   padding: 24px 20px 11px 20px;
